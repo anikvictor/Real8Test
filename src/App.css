@@ -1,0 +1,202 @@
+footer {
+  position: absolute;
+  /* left: 0;*/
+  bottom: 0;
+  width: 100%;
+  background: radial-gradient(circle,#FF9892 0%,#D7544C 100%);
+  color: white;
+  text-align: center;
+  /* padding-top: 1em;
+  padding-left: 3em;
+  padding-bottom: 3em;  */
+  height: 2.5rem;   
+}
+
+
+.MainContainer{
+  position: relative;
+  min-height: 100vh;
+  background-color: #9e9e9e3b;
+  justify-content: center; 
+}
+
+.container{
+  padding-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ justify-content: center;
+ color: black; 
+}
+
+.homeMain{
+    background-image: url(./Images/img1.jpg);
+    padding-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ justify-content: center;
+ font-size: 14px;
+ color: white;
+}
+
+.spanError{
+  color:red;
+}
+
+/* css added on 5 Aug 2020 */
+
+.dropdown {
+  /* position: relative; */
+  display: inline-block;
+  position: fixed; 
+  will-change: transform; 
+  top: 0px; 
+  left: 0px; 
+  transform: translate3d(-180px, 25px, 0px);
+}
+
+
+.dropdown-content {
+  /* display: none; */
+  position: fixed;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+} 
+
+.dropdown-content a:visited{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+} 
+
+.roundButton{
+  border-radius: 2.813rem!important;
+}
+
+/* css for 5 Aug 2020 end here */
+.navbar {
+  display: flex;
+  align-items: center;
+  background: radial-gradient(circle,#FF9892 0%,#D7544C 100%)!important;
+  /* background: #FF9AA2; */
+  color: white;
+  font-family: Helvetica;
+  font-weight: 300;
+}
+.menulink {
+  color: #f5f6f7;
+  text-decoration: none;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+a:hover{
+  color: #ad2b23 !important;
+  text-decoration: none !important;
+  background-color: transparent;
+}
+.nav-link.active{
+  color: #ad2b23 !important;
+}
+.navbar-nav .nav-item {
+  margin: 0 1.875rem;
+}
+
+.rightfloat{
+  float: right;
+}
+
+.videohero1 {
+	/* height: 700px; */
+	background-image: url(./Images/img2.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+p {
+  font-family: "Roboto",sans-serif;
+  color: black;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+
+.textonimg
+{
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-top: 200px;
+}
+
+.textonimg1
+{
+    color: white;
+    font-size: 30px;
+}
+
+/* css for 7 Aug 2020 start here */
+.receiverDiv { 
+  position: relative;
+  background: radial-gradient(circle,#FF9892 0%,#D7544C 100%);
+  width: 50%;
+  border-radius: 2.5rem;
+  margin: 0 auto;
+  height: 500px;
+}
+
+.innerDiv{
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 30%;
+}
+
+.callerDiv {
+  /* background: lightblue; */
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  border-radius: 0.5rem;
+}
+
+
+.receiver { 
+  background: transparent;
+  width: 100%;
+   height: 100%;
+   border-radius: 2.5rem;
+}
+
+.caller {
+  background: transparent; 
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  border-color: red;
+  border:10px 
+}
+/* css for 7 Aug 2020 end here */
